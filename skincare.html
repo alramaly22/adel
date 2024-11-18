@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <title>Skin care</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <!-- <header class="top-header">
+        <div class="top-header__left">
+            <span>مواعيد العمل: 9:00 صباحاً - 10:00 مساءً</span>
+            <span>رقم الهاتف: 123-456-7890</span>
+        </div>
+        <div class="top-header__right">
+            <a href="#" class="social-link"><i class="ri-facebook-fill"></i></a>
+            <a href="#" class="social-link"><i class="ri-instagram-fill"></i></a>
+            <a href="#" class="social-link"><i class="ri-twitter-fill"></i></a>
+            <a href="#" class="social-link"><i class="ri-tiktok-fill"></i></a>
+        </div>
+    </header> -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <!-- <i class="ri-scissors-cut-fill"></i>
+                <span>Construct</span> -->
+                <img src="images/logo.png" alt="" class="image__logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html#home" class="nav__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#about" class="nav__link">About</a>
+                    </li>
+                    <li>
+                        <a href="index.html#service" class="nav__link">Services</a>
+                    </li>
+                    <!-- <li>
+                        <a href="#projects" class="nav__link">Prijects</a>
+                    </li> -->
+                    <li>
+                        <a href="index.html#contact" class="nav__link button">Contact Us</a>
+                    </li>
+                </ul>
+                <!-- Close Button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-scissors-cut-fill"></i>
+
+                </div>
+            </div>
+            <div style="color: black;" class="nav__toggle" id="nav-toggle">
+                <i class="ri-command-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home2" id="home" data-aos="fade-left">
+            <!-- Video Background -->
+            <div class="video-container">
+                <video class="home__video" autoplay muted loop>
+                  <source src="video/skincare.mp4" type="video/mp4" type="video/mp4">
+              </video>
+                <div class="video-overlay"></div>
+            </div>
+
+
+
+            <div class="home__img2">
+
+            </div>
+            <div class="home__container2 container grid">
+                <div class="home__data2">
+                    <h1 class="home__data-title2">Reveal your radiant skin with our care</h1>
+                    <!-- <a href="second.html" class="button">Get Start</a> -->
+                </div>
+                <!-- بقية محتوى قسم الـ home -->
+            </div>
+
+        </section>
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+                    <video class="portfolio__video" controls muted loop>
+                        <source src="video/skincare.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="portfolio__img">
+                    <video class="portfolio__video" controls muted loop>
+                        <source src="video/skincare3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="portfolio__img">
+                    <video class="portfolio__video" controls muted loop>
+                        <source src="video/skincare4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!--==================== Contact ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__data">
+                    <h2 class="section__title-2">
+                        <span data-lang="comtact">contact me.</span>
+                    </h2>
+                    <p class="contact__description-1">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos error dicta aspernatur? Accusantium, sed? Consectetur.
+                    </p>
+                    <p class="contact__description-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates reiciendis officia culpa ipsum commodi id.
+                    </p>
+                    <div class="gometric-box"></div>
+                </div>
+                <div class="contact__mail">
+                    <h2 data-lang="contactsend" class="contact__title">
+                        Send Me A Message
+                    </h2>
+                    <form action="javascript:void(0)" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                                <label data-lang="contactlabel1" for="name" class="contact__label">First Name</label>
+                            </div>
+
+                            <div class="contact__box">
+                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                                <label data-lang="contactlabel2" for="email" class="contact__label">Email Address</label>
+                            </div>
+                        </div>
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="date" name="date_name" class="contact__input" id="date" required placeholder="Date">
+                            </div>
+
+                            <div class="contact__box">
+                                <label for="category" class="contact__label">Select Category</label>
+                                <select name="category" class="contact__input" id="category" required>
+                                    <option value="" disabled selected>Select a category</option>
+                                    <option value="wig">Wig</option>
+                                    <option value="skin_care">Skin Care</option>
+                                    <option value="massage">Massage</option>
+                                    <option value="cupping">Cupping</option>
+                                    <option value="bridal">Bridal</option>
+                                    <option value="haircuts">Haircuts</option>
+                                    <option value="kids_haircuts">Kids Haircuts</option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                            <label for="message" class="contact__label">Message</label>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button button" onclick="sendMessage()">Send Message</button>
+                    </form>
+
+                </div>
+                <div class="contact__social">
+                    <!-- <img src="images/curved-arrow.svg" alt="" class="contact__social-arrow"> -->
+                    <div class="contact__social-data">
+                        <div>
+                            <p data-lang="contacno" class="contact__social-description-1">
+                                Does not send emails
+                            </p>
+                            <p data-lang="contactyes" class="contact__social-description-2">
+                                Write me on my social networks
+                            </p>
+                        </div>
+
+                        <div class="contact__social-links">
+                            <a href="" target="_blank" class="contact__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+
+                            <a href="" target="_blank" class="contact__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+
+                            <a href="" target="_blank" class="contact__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+
+                            <a href="" target="_blank" class="contact__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="index.html" class="footer__logo">Adel Messi</a>
+                <p class="footer__description">
+                    At <strong>Adel Messi Salon</strong>, <br> we offer top grooming services <br> with style, quality, and care. <br> Your elegance is our priority.
+                </p>
+
+            </div>
+            <div class="footer__content grid">
+                <div>
+                    <h3 class="footer__title">Address</h3>
+                    <ul class="footer__list">
+                        <li>
+                            <address class="footer__info">
+                                <a href="https://www.google.com/maps/place/31%C2%B014'54.9%22N+32%C2%B018'44.7%22E/@31.2485752,32.3098374,17z/data=!3m1!4b1!4m4!3m3!8m2!3d31.2485752!4d32.3124123?hl=en&entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="footer__info-link">
+                                    <i class="ri-map-pin-2-fill"></i>Port Said, Port Fouad
+                                </a>
+                            </address>
+                        </li>
+
+
+                        <li>
+                            <address class="footer__info">
+                            9AM - 11PM
+                        </address>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div>
+                    <h3 class="footer__title">Socail Media</h3>
+                    <div class="footer__social">
+                        <a href="#" target="_blank">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <i class="ri-tiktok-fill"></i>
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="+201200018164" target="_blank">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <span class="footer__copy">&#169; All Rights Reserved By <a href="+201005718132" class="mo">Mohamed Alramly</a></span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-fill"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <!-- <script src="js/script.js"></script> -->
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> -->
+    <!-- <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
