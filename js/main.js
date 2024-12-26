@@ -63,37 +63,37 @@ window.addEventListener('scroll', scrollUp)
  */
 
 
-/*=============== SWIPER JS ===============*/
-let swiperCards = new Swiper(".card__content", {
-    loop: true,
-    spaceBetween: 32,
-    grabCursor: true,
+let swiperCards; // إعلان المتغير بشكل عام
 
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: true,
-    },
-
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-
-    autoplay: {
-        delay: 5000, // الوقت بالميلي ثانية (5000ms يعني 5 ثوانٍ)
-        disableOnInteraction: false, // استمرار التشغيل التلقائي حتى بعد التفاعل
-    },
-
-    breakpoints: {
-        600: {
-            slidesPerView: 2,
+document.addEventListener('DOMContentLoaded', function() {
+    swiperCards = new Swiper(".card__content", {
+        loop: true,
+        spaceBetween: 32,
+        grabCursor: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
         },
-        968: {
-            slidesPerView: 3,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
-    },
+        autoplay: {
+            delay: 5000, // الوقت بالميلي ثانية (5000ms يعني 5 ثوانٍ)
+            disableOnInteraction: false, // استمرار التشغيل التلقائي حتى بعد التفاعل
+        },
+        breakpoints: {
+            600: {
+                slidesPerView: 2,
+            },
+            968: {
+                slidesPerView: 3,
+            },
+        }
+    });
 });
+
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
