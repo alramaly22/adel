@@ -1622,6 +1622,16 @@ img {
         /* right: -1.5rem; */
         top: -1.5rem;
     }
+    .card__container {
+        padding-block: 5rem;
+        height: 111vh;
+    }
+    .containere {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 126vh;
+    }
 }
 
 @media (min-width: 750px) and (max-width: 1099px) {
